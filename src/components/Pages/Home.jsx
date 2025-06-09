@@ -4,6 +4,7 @@ import { Search } from "lucide-react";
 import EventCard from "../EventCard";
 import { useState, useEffect } from "react";
 import axios from "axios";
+import Animations from '../../assets/images/animation.png'
 
 
 export default function Home() {
@@ -72,6 +73,23 @@ export default function Home() {
                         );
                     })}
                 </div>
+            </section>
+            <section className="flex flex-row bg-navy-blue text-white pl-20 mt-12 relative h-[238px] ">
+                <div>
+                    <img src={Animations} alt="animation image" className="relative -top-8  mx-auto w-120" />
+                </div>
+                <div className=" pt-8 w-[45%] mx-auto ">
+                    <h2 className="text-xl ">Make your own Event</h2>
+                    <p className="pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <button className="bg-purple-blue px-16 py-2 rounded mt-6">Create Events</button>
+                </div>
+            </section>
+            <section>
+                <h2>
+                    <span>Join these</span>
+                    <span>brands</span>
+                </h2>
+                <p>We've have the pleasure of with industry-defining brands. These are just some of them</p>
             </section>
 
             <section className="h-[200px]"></section>
