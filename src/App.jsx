@@ -11,10 +11,10 @@ const eventHiveRouter = createBrowserRouter([
   {path:'/', element: <Home />},
   {path:'/register', element: <Register/>},
   {path:'/login', element: <Login />},
-  {path:'/viewcollege', element: <ViewCollege />},
-  {path:'/viewevent', element: <ViewEvent />},
+  {path:'/view-college', element: <ViewCollege />},
+  {path:'/view-event', element: <ViewEvent />},
   {path:'*', element: <NotFound />},
-  {path:'/createevent', element: <CreateEvent />}
+  {path:'/create-event', element: <CreateEvent />}
 ]);
 function App() {
  
