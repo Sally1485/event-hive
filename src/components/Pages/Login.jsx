@@ -34,7 +34,7 @@ export default function Login() {
                     </div>
                     <div className='flex flex-col pt-4'>
                         <div className='flex justify-between mb-2'>
-                            <label htmlFor="your-email" className='font-bold '>Your Email</label>
+                            <label htmlFor="your-email" className='font-bold '>Your Password</label>
                             <a href="#" className='font-light'>Forgot password?</a>
                         </div>
                         <input password="password" name="password" id="password" placeholder="Enter your mail"className='w-[100%] px-6 py-2 bg-white' />
